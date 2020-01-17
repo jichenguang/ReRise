@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12709" started-at="2020-01-17T11:29:15Z" finished-at="2020-01-17T11:29:27Z">
+    <groups>
+      <group name="P1">
+        <method signature="TestCaseOne.testMethod1()[pri:0, instance:modualA.TestCaseOne@523884b2]" name="testMethod1" class="modualA.TestCaseOne"/>
+        <method signature="TestCaseThree.one()[pri:1, instance:modualA.TestCaseThree@5b275dab]" name="one" class="modualA.TestCaseThree"/>
+        <method signature="TestCaseTwo.testMethod2()[pri:0, instance:modualA.TestCaseTwo@28d25987]" name="testMethod2" class="modualA.TestCaseTwo"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="TestCaseThree.four()[pri:4, instance:modualA.TestCaseThree@5b275dab]" name="four" class="modualA.TestCaseThree"/>
+        <method signature="TestCaseThree.three()[pri:3, instance:modualA.TestCaseThree@5b275dab]" name="three" class="modualA.TestCaseThree"/>
+        <method signature="TestCaseThree.two()[pri:2, instance:modualA.TestCaseThree@5b275dab]" name="two" class="modualA.TestCaseThree"/>
+      </group> <!-- P2 -->
+      <group name="smoking">
+        <method signature="TestCaseOne.testMethod1()[pri:0, instance:modualA.TestCaseOne@523884b2]" name="testMethod1" class="modualA.TestCaseOne"/>
+        <method signature="TestCaseThree.one()[pri:1, instance:modualA.TestCaseThree@5b275dab]" name="one" class="modualA.TestCaseThree"/>
+      </group> <!-- smoking -->
+    </groups>
+    <test name="Test" duration-ms="12709" started-at="2020-01-17T11:29:15Z" finished-at="2020-01-17T11:29:27Z">
+      <class name="modualA.TestCaseTwo">
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:modualA.TestCaseTwo@28d25987]" name="testMethod2" duration-ms="7" started-at="2020-01-17T11:29:15Z" finished-at="2020-01-17T11:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- modualA.TestCaseTwo -->
+      <class name="modualA.TestCaseOne">
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:modualA.TestCaseOne@523884b2]" name="testMethod1" duration-ms="1" started-at="2020-01-17T11:29:27Z" finished-at="2020-01-17T11:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- modualA.TestCaseOne -->
+      <class name="modualA.TestCaseThree">
+        <test-method status="PASS" signature="one()[pri:1, instance:modualA.TestCaseThree@5b275dab]" name="one" duration-ms="0" started-at="2020-01-17T11:29:27Z" finished-at="2020-01-17T11:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="two()[pri:2, instance:modualA.TestCaseThree@5b275dab]" name="two" duration-ms="1" started-at="2020-01-17T11:29:27Z" finished-at="2020-01-17T11:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="three()[pri:3, instance:modualA.TestCaseThree@5b275dab]" name="three" duration-ms="1" started-at="2020-01-17T11:29:27Z" finished-at="2020-01-17T11:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="four()[pri:4, instance:modualA.TestCaseThree@5b275dab]" name="four" duration-ms="1" started-at="2020-01-17T11:29:27Z" finished-at="2020-01-17T11:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- four -->
+      </class> <!-- modualA.TestCaseThree -->
+      <class name="modualA.OpenBaiduTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:modualA.OpenBaiduTestNG@4501b7af]" name="setUp" is-config="true" duration-ms="5171" started-at="2020-01-17T11:29:15Z" finished-at="2020-01-17T11:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openBaidu()[pri:0, instance:modualA.OpenBaiduTestNG@4501b7af]" name="openBaidu" duration-ms="5207" started-at="2020-01-17T11:29:20Z" finished-at="2020-01-17T11:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBaidu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:modualA.OpenBaiduTestNG@4501b7af]" name="tearDown" is-config="true" duration-ms="2295" started-at="2020-01-17T11:29:25Z" finished-at="2020-01-17T11:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- modualA.OpenBaiduTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
